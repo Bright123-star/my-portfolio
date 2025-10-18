@@ -1,0 +1,62 @@
+body{
+    background-color: #1f242d;
+}
+#navlink{
+    position: fixed;
+    width: 98%;
+    padding: 10px;
+    
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.logo{
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+}
+.logo1{
+    color: white;
+}
+.logo2{
+    color: rgb(71, 245, 71);
+
+}
+nav, .action{
+    padding-top: 3px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: 400;
+    display: flex;
+    gap: 90px;
+    color: white;
+}
+.action:active, .action:hover{
+    color:rgb(71, 245, 71) ;
+    text-decoration: underline;
+}
+
+.cont-btn{
+
+    border: solid 0px;
+    border-left: solid 2px rgb(71, 245, 71);
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color: #1f242d;
+ 
+}
+.action1{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* section profile  */
+
+
+
+
