@@ -56,7 +56,172 @@ nav, .action{
 }
 
 /* section profile  */
+#home{
+    padding-top: 10%;
+    display: flex;
+    gap: 100px;
+    /* padding: 50px; */
+}
+.profile-content{
+    padding-top: 50px;
+}
+.profile-pic{
+    height: 4opx;
+    width:400px;
+    margin: 30px;
+    margin-left: 200px;
 
 
 
+}
+.home-hello{
+    color: rgb(71, 245, 71);
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: -9%;
+    font-family: "Dancing Script", cursive;
+}
+.home-name{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 20mm white;
+    padding-top: 2%;
+}
+.home-skill{
+    margin-top: -8%;
+}
+.home-am{
+    color: white;
+    font-size: 20px;
+}
+.home-skills{
+    color: rgb(71, 245, 71);
+    font-size: 35px;
+    font-weight: 900;
+}
+.home-skills {
+    position: relative;
+}
+.home-skills::before{
+    content: "Web Developer";
+    color: rgb(71, 245, 71);
+    animation: words 20s infinite;
+}
+.home-skills::after{
+    content: "";
+    position: absolute;
+    border-left: 2px solid rgb(71, 245, 71);
+    background-color: #1f242d;
+    height: 100%;
+    width: calc(100% + 8px);
+    right: -8px ;
+    animation: cursor .10s infinite, typing 20s steps(20) infinite;
+}
+@keyframes cursor{
+    to{
+        border-left: 2px solid rgb(71, 245, 71);
+    }
+}
+
+@keyframes words {
+    0%, 20%{
+        content: "Web Developer";
+    }
+    21%, 40%{
+        content: "Front-End Programmer";
+    }
+    41%, 60%{
+        content: "Basic Python Programmer";
+    }
+    61%,80%{
+        content: "Photo Edithing";
+    }
+    81%,100%{
+        content: "Devl0p";
+    }
+}
+@keyframes typing{
+    10%,15%,30%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+.home-para{
+    color: white;
+    text-align: justify;
+    max-width: 80%;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.cv-btn{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(71, 245, 71);
+    border: solid 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+
+}
+.cv-link{
+    text-decoration: none;
+    color: white;
+}
+.home-call{
+    width: 120px;
+    height: 35px;   
+    border: solid 1px rgb(71, 245, 71);
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #1f242d;
+    color: rgb(71, 245, 71);
+
+}
+.call-link{
+    text-decoration: none;
+    color: rgb(71, 245, 71);
+}
+.cv-btn:hover{  
+    border: solid 1px rgb(71, 245, 71);
+    background-color: #1f242d;
+    color: rgb(71, 245, 71); 
+}
+.cv-link:hover{
+    color: rgb(71, 245, 71);
+}
+.home-call:hover{
+    background-color: rgb(71, 245, 71);
+    border: solid 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;    
+}
+.call-link:hover{
+    background-color: rgb(71, 245, 71);
+    border: solid 0px;
+    color: white;
+
+}
+
+.icons{
+    /* background-color: rgb(71, 245, 71); */
+    font-size: 15px;
+    font-weight: 600;
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid rgb(71, 245, 71);
+    text-align: center;
+    padding: 5px;
+}
+.icon-link{
+    color: rgb(71, 245, 71);
+}
+.icons-p{
+    display: flex;
+    gap: 10px;
+}
 
