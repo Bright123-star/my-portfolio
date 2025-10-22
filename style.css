@@ -74,6 +74,39 @@ nav, .action{
 
 
 }
+
+image-container{
+    background: black;
+    width: fit-content;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container img{
+    width: 300px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 0 5px 30px black;
+}
+
+
+.conical_gradient{
+    content: "";
+    width: 350px;
+    aspect-ratio: 1/1;
+    background: conic-gradient(transparent, rgb(71, 245, 71), transparent, transparent);
+    position: absolute;
+    border-radius: 50%;
+    transition: all 3s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .home-hello{
     color: rgb(71, 245, 71);
     font-size: 20px;
@@ -224,4 +257,5 @@ nav, .action{
     display: flex;
     gap: 10px;
 }
+
 
