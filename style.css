@@ -265,4 +265,56 @@ nav, .action{
     gap: 10px;
 }
 
+/*ABOUT ME SECTION*/
+#about{
+    width: 90%;
+    gap: 10%;
+    height: 100vh;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
 
+.brief{
+    width: 90%;
+}
+.brief >h1{
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.brief{
+    box-sizing: border-box;
+}
+.brief li{
+    width: 100%;   
+    list-style: none;
+    position: relative;
+}
+
+.brief h2{
+    font-size: 40px;
+    color: rgb(71, 245, 71)
+}
+
+.brief p{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.brief button{
+    font-size: 20px;
+    padding: 10px;
+    background:rgb(71, 245, 71);
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    transition: 1s all ease;
+}
+
+.brief button:hover{
+    transform: scale(1.08);
+    background: #1f242d;
+    color:rgb(71, 245, 71)
+}
