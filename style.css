@@ -319,3 +319,262 @@ nav, .action{
     color:rgb(71, 245, 71)
 }
 
+/* section skills */
+.service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-left: 4%;
+}
+
+.web-service {
+    height: 350px;
+    width: 350px;
+    background-color: rgba(0, 0, 1, 0.5);
+    box-shadow: 1px 2px 1px 1px rgb(53, 54, 54);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.heading {
+    color: rgb(9, 230, 20);
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.service-para {
+    color: white;
+    max-width: 80%;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+#webView,
+#pythonView,
+#photoshopView {
+    color: rgb(9, 230, 20);
+    padding-left: 5px;
+    background-color: rgb(26, 28, 29);
+    border: 0 solid;
+
+}
+
+#webView,
+#photoshopView {
+    margin-top: 30px;
+}
+
+#pythonView {
+    margin-top: 7px;
+}
+
+#webLinks,
+#pythonLinks,
+#photoshopLinks {
+    display: none;
+    background-color: rgba(99, 252, 124, 0.5);
+    width: 40%;
+    margin-left: 20%;
+}
+
+.proLink {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+
+}
+
+#skillsPercentage {
+    padding-left: 30%;
+}
+
+.web-div,
+.c-div,
+.python-div,
+.photoshop-div {
+    background-color: white;
+    width: 58%;
+}
+
+#webPercent {
+    width: 0;
+    height: 4px;
+    background-color: rgb(9, 230, 20);
+    border: none;
+    animation: grow 14s ease forwards;
+}
+
+@keyframes grow {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: var(100%);
+    }
+}
+
+.web-counter,
+.python-counter,
+.c-counter,
+.photoshop-counter {
+    display: flex;
+}
+
+#pythonPercent {
+    width: 0;
+    height: 4px;
+    background-color: rgb(9, 230, 20);
+
+    border: none;
+    animation: grow 10s ease forwards;
+
+}
+
+#photoshopPercent,
+#CPercent {
+    width: 0;
+    height: 4px;
+    background-color: rgb(9, 230, 20);
+    border: none;
+    animation: grow 6s ease forwards;
+}
+
+.html-percentage {
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+    padding-top: 50px;
+    color: white;
+}
+
+
+
+/* section contact */
+
+.contact-section {
+    height: 600px;
+    width: 90%;
+    margin-left: 3.5%;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: rgb(26, 28, 29);
+    box-shadow: 2px 2px 3px 0px white;
+}
+
+.contact-heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    padding-left: 43%;
+
+}
+
+.contact-para {
+    max-width: 50%;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    padding-left: 25%;
+    color: wheat;
+
+}
+
+.call-btn,
+.get-btn {
+    height: 40px;
+    width: 280px;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+
+.call-btn {
+    background-color: rgb(9, 230, 20);
+    border: 1px solid white;
+    color: white;
+}
+
+.get-btn {
+    background-color: white;
+    border: 1px solid rgb(9, 230, 20);
+    color: rgb(9, 230, 20);
+}
+
+.contact-btns {
+    margin-left: 37%;
+    display: flex;
+    gap: 25px;
+}
+
+form {
+    width: 50%;
+    margin-left: 31%;
+    margin-top: 60px;
+}
+
+.email-names {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 10px;
+}
+
+.email-name {
+    color: white;
+
+}
+
+#name {
+    height: 25px;
+    width: 120%;
+    background-color: rgb(26, 28, 29);
+    border: 1px solid rgb(9, 230, 20);
+    border-radius: 5px;
+    color: white;
+}
+
+#E-mail {
+    height: 25px;
+    width: 74%;
+    background-color: rgb(26, 28, 29);
+    border: 1px solid rgb(9, 230, 20);
+    border-radius: 5px;
+    color: white;
+}
+
+#message {
+    width: 74%;
+    background-color: rgb(26, 28, 29);
+    border: 1px solid rgb(9, 230, 20);
+    border-radius: 5px;
+    color: white;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit-btn {
+    width: 74%;
+    height: 25px;
+    font-size: 20px;
+    background-color: rgb(9, 230, 20);
+    color: white;
+    border: 1px solid white;
+    margin-top: 2%;
+}
+
+
