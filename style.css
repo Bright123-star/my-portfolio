@@ -5,7 +5,6 @@ body{
     position: fixed;
     width: 98%;
     padding: 10px;
-    
 }
 .navlinks{
     display: flex;
@@ -281,6 +280,7 @@ nav, .action{
 }
 .brief >h1{
     font-size: 60px;
+    text-decoration: none;
     color: whitesmoke;
 }
 
@@ -397,6 +397,7 @@ h1 {
 
 #skillsPercentage {
     padding-left: 30%;
+    height: 100vh;
 }
 
 .web-div,
@@ -582,10 +583,11 @@ textarea {
     justify-self: center;
     height: 100vh;
     box-sizing: border-box;
+    position: relative;
 }
 #education > h1{
     text-decoration: none;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 #education > div{
@@ -612,6 +614,12 @@ textarea {
     margin-bottom: 100px;
 }
 
+.skill-h1{
+    font-size: 60px;
+    text-decoration: none;
+    padding-left: 4%;
+}
+
 .school > h1{
     text-decoration: none;
     font-size: 30px;
@@ -630,4 +638,98 @@ textarea {
 .schools-img img{
     width: 100%;
     height: 100%;
+}
+
+
+
+@media (max-width: 1700px){
+    .profile-pic img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 1500px){
+    .profile-pic img{
+        width: 350px;
+    }
+
+    .brief>h1{
+        font-size: 40px;
+    }
+
+    .brief>h2{
+        font-size: 30px;
+    }
+
+    .brief>p{
+        font-size: 20px;
+    }
+
+    .brief>button{
+        font-size: 20px;
+    }
+
+    #education >div{
+        display: block ;
+    }
+    .schools-wrapper{
+        display: flex;
+        gap: 20%;
+    }
+    .school>h1{
+        font-size: 25px; 
+    }
+
+    .school>h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1400px){
+    .home-name{
+        font-size: 40px;
+    }
+
+    .home-skills{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1300px){
+    .profile-content{
+        width: 80%;
+    }
+
+    .home-skills{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1200px){
+    .home-hello{
+        font-size: 15px;
+    }
+    .home-name{
+        font-size: 20px;
+    }
+    .home-skills{
+        font-size: 20px;
+    }
+    .home-para{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 900px){
+    .profile-pic{
+        display: none;
+    }
+
+    .skill-h1{
+        font-size: 40px;
+    }
+
+    #education > h1{
+        font-size: 40px;  
+    }
 }
