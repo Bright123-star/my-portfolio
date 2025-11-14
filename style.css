@@ -718,6 +718,61 @@ textarea {
     .home-para{
         font-size: 12px;
     }
+       .service {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        row-gap: 50px;
+        /* column-gap: 300px; */
+        padding-left: 0%;
+    }
+
+    .web-service {
+        height: 300px;
+        width: 100%;
+    }
+
+    .heading {
+        color: rgb(9, 230, 20);
+        font-weight: 400;
+        font-size: 38px;
+        padding-top: 50%;
+
+
+    }
+
+    .service-para {
+        color: white;
+        max-width: 90%;
+        font-size: 20px;
+        padding: 25px;
+    }
+
+    #skillsPercentage {
+        width: 90%;
+        padding-left: 5%;
+
+    }
+
+    .html-percentage {
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .web-div,
+    .c-div,
+    .python-div,
+    .photoshop-div {
+        background-color: white;
+        width: 100%;
+    }
+
+    .web-percent,
+    .python-percent,
+    .c-percent,
+    .photoshop-percent {
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 900px){
@@ -732,4 +787,54 @@ textarea {
     #education > h1{
         font-size: 40px;  
     }
+        .service {
+        grid-template-columns: 1fr;
+        padding-left: 0%;
+    }
+
+    .web-service {
+        height: 240px;
+        width: 100%;
+    }
+
+    .heading {
+        color: rgb(9, 230, 20);
+        font-weight: 400;
+        font-size: 35px;
+        padding-top: 50%;
+
+    }
+
+    .service-para {
+        color: white;
+        max-width: 90%;
+        font-size: 15px;
+        text-align: center;
+        padding: 25px;
+    }
+
+    #skillsPercentage {
+        padding-left: 0%;
+        width: 100%;
+    }
+
+    .html-percentage {
+        width: 100%;
+    }
+
+    .web-div,
+    .c-div,
+    .python-div,
+    .photoshop-div {
+        background-color: white;
+        width: 100%;
+    }
+
+    .web-percent,
+    .python-percent,
+    .c-percent,
+    .photoshop-percent {
+        width: 100%;
+    }
+
 }
