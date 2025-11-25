@@ -72,3 +72,52 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+function sumOfAllOdd(num) {
+    //iterate from 1 to num
+    //find number not divisible by two(odd numbers);
+    //add them to the storage (sumOfOdd);
+    //Output results on console.
+    let sumOfOdd = 0;
+    for (let i = 1; i <= num; i++) {
+        if (i % 2 != 0) {
+            sumOfOdd += i;
+        }
+    }
+    console.log('The sum of all odd numbers from 1 to ', num, ' is ',sumOfOdd);
+}
+
+
+
+//Accept number as input
+//in a for loop of 1 to twelve multiply i to the number and print out the result.
+function multiplyTable(num) {
+    for (i = 1; i <= 12; i++){
+        let result = num * i;
+        console.log(num,' x ', i,' = ', result);
+    }
+}
+
+//Accept num as input
+//iterate from 1 to num;
+//create a memory location(product);
+//store one as the initial value of product
+//multiply i to product after each iteration.
+//print out the final result of product as the factorial of num
+
+//DAY EIGHT
+function fact(num) {
+    let product = 1;
+    for (i = 1; i <= num; i++){
+        product *= i;
+    }
+    if (num >= 1) {
+        console.log("The factorial of ", num, " is ", product);    
+    } else {
+        console.log('The factorial of zero or negative number cannot be found')
+    }
+    
+}
+
+
+
+
